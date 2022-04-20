@@ -66,5 +66,22 @@ margin: auto;
   
 }
 
+.ln{
+  color: white;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 10px;
+}
+
+.circle {
+  list-style: disc;
+}
+.squre {
+  list-style: square;
+}
+.circleofli{
+  list-style: circle;
+}
+
 
 

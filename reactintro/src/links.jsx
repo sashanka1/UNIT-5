@@ -1,16 +1,15 @@
 
 
-
-function link(){
-    
 const arr =["service","product","about"]
-   
-arr.map (function(el){
-<h5>el</h5>
-})
+function Linkd(){
     
+return(
+    arr.map((e)=>{
+ return(<div className="ln">{e}</div>)
+    })
+)
 
     
 }
 
-export {link}
+export {Linkd}
