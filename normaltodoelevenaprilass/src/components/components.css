@@ -1,0 +1,78 @@
+.input{
+height: 50px;
+width: 600px;
+background-color: bisque;
+font-size: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 2px;
+border-radius: 10px;
+display: block;
+margin: auto;
+}
+.butt{
+    height: 60px;
+    width: 200px;
+    padding: 1px;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-color: rgb(163, 120, 120);
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.tog{
+    background-color: blueviolet;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+}
+
+.tog2{
+    background-color: rgb(240, 13, 13);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+}
+
+
+.lint{
+    text-decoration: line-through;
+    box-shadow: tomato;
+    background-blend-mode: color-burn;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .tog {
+      animation: App-logo-spin infinite 2s linear;
+    }
+    .tog2 {
+        animation: App-logo-spin infinite 20s linear;
+      }
+  }
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+     
+      transform: translate(100px );
+      transform: rotate(360deg );
+    }
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: translate(0px);
+    }
+    to {
+     
+      transform: translate(100px );
+      border-radius: 100%;
+      background-color: blue;
+    }
+  }
